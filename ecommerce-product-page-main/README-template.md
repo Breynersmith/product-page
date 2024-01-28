@@ -16,8 +16,8 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [repo](https://github.com/Breynersmith/product-page)
+- Live Site URL: [aqui](https://breynersmith.github.io/product-page/)
 
 ## My process
 
@@ -30,6 +30,5 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [@Breynersmith](https://www.frontendmentor.io/profile/Breynersmith)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
