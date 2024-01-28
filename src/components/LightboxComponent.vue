@@ -53,29 +53,32 @@
 <script setup>
 import { ref, reactive } from 'vue';
 
+const base = import.meta.env.BASE_URL + 'images'
+
 const images = reactive([
     {
         id: 1,
-        src: '/images/image-product-1.jpg'
+        src: '/image-product-1.jpg'
     },
     {
         id: 2,
-        src: '/images/image-product-2.jpg'
+        src: '/image-product-2.jpg'
     },
     {
         id: 3,
-        src: '/images/image-product-3.jpg'
+        src: '/image-product-3.jpg'
     },
     {
         id: 4,
-        src: '/images/image-product-4.jpg'
+        src: '/image-product-4.jpg'
     }
 ])
 
-const imgActiva = ref(images[0].src)
+const imgActiva = ref(base + images[0].src)
 
 function changeImage(id) {
-    imgActiva.value = images[id].src
+    imgActiva.value = base + images[id].src
+    console.log(imgActiva.value);
 }
 
 const nextImg = () => {
